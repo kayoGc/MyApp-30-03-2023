@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavorite"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Favorito"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/baseline_search"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSave"
+        android:icon="@drawable/baseline_save"
+        android:title="Salvar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/baseline_exit_to_app"
+        android:title="Sair"
+        app:showAsAction="ifRoom" />
+</menu>
